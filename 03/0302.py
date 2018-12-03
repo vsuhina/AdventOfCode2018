@@ -21,7 +21,7 @@ if __name__ == "__main__":
 
     maxwidth = max(map(lambda c: c.left + c.width, claims))
     maxheight = max(map(lambda c: c.top + c.height, claims))
-    print maxwidth, maxheight
+    print(maxwidth, maxheight)
 
     # make fabric (all zeros)
     fabric = []
@@ -44,4 +44,4 @@ if __name__ == "__main__":
                 if fabric[i][j] > 1:
                     overlaps = True
         if not(overlaps):
-            print c.id
+            print(c.id)

@@ -26,7 +26,7 @@ for i in range(len(line1)):
     if line1[i] == line2[i]:
         res += line1[i]
 
-print res
+print(res)
 
 
 
